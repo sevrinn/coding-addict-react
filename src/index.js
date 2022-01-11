@@ -16,28 +16,14 @@ const BookList = () => {
 const Book = () => {
 	return (
 		<article className="book">
-			<Image />
-			<Title />
-			<Author />
+			<img
+				src="https://m.media-amazon.com/images/I/61PzAMU7SGL._AC_UY327_FMwebp_QL65_.jpg"
+				alt=""
+			/>
+			<h2>JavaScript Data Structures and Algorithms</h2>
+			<h4 className="author">Sammie Bae</h4>
 		</article>
 	)
-}
-
-const Image = () => {
-	return (
-		<img
-			src="https://m.media-amazon.com/images/I/61PzAMU7SGL._AC_UY327_FMwebp_QL65_.jpg"
-			alt=""
-		/>
-	)
-}
-
-const Title = () => {
-	return <h2>JavaScript Data Structures and Algorithms</h2>
-}
-
-const Author = () => {
-	return <h4>Sammie Bae</h4>
 }
 
 ReactDOM.render(<BookList />, document.getElementById('root'))
