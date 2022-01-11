@@ -12,16 +12,17 @@ const BookList = () => {
 		</section>
 	)
 }
-
+const author = 'Sammie Bae'
 const Book = () => {
+	const title = 'JavaScript Data Structures and Algorithms'
 	return (
 		<article className="book">
 			<img
 				src="https://m.media-amazon.com/images/I/61PzAMU7SGL._AC_UY327_FMwebp_QL65_.jpg"
 				alt=""
 			/>
-			<h2>JavaScript Data Structures and Algorithms</h2>
-			<h4 className="author">Sammie Bae</h4>
+			<h2>{title}</h2>
+			<h4 className="author">{author}</h4>
 		</article>
 	)
 }
