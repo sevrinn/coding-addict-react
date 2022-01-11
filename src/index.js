@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const Greeting = () => {
-  return <h1>Hello!</h1>;
-};
+const BookList = () => {
+  return <section>this issa booklist</section>
+}
 
-ReactDOM.render(<Greeting />, document.getElementById("root"));
+ReactDOM.render(<BookList />, document.getElementById('root'))
